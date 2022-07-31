@@ -1,0 +1,39 @@
+Proje 1
+
+A)[22,27,16,2,18,6] -> Insertion Sort
+
+1)Yukarıda verilen dizinin sort türüne göre aşamalarını yazınız.
+
+1.Adım: 22 27 16 2 18 6
+2.Adım: 22 27 16 2 18 6 (22 27'den küçük olduğu için böyle kalır)
+3.Adım: 22 16 27 2 18 6 -> 16 22 27 2 18 6 (16 27'den küçüktür yer değiştirir, 16 22'den de küçüktür yer değiştirir)
+4.Adım: 16 22 2 27 18 6 -> 16 2 22 27 18 6 -> 2 16 22 27 18 6 ( 2 22'den küçüktür yer değiştirir, 2 16'dan da küçüktür yer değiştirir)
+5.Adım: 2 16 22 18 27 6 -> 2 16 18 22 27 6 (18 27'den küçüktür yer değiştirir, 18 22'den de küçüktür yer değiştirir)
+6.Adım: 2 16 18 22 6 27 -> 2 16 18 6 22 27 -> 2 16 6 18 22 27-> 2 6 16 18 22 27 
+(6 27'den küçüktür yer değiştirir, 6 22'den 18'den ve 16'dan da küçük olduğu için tek tek yer değiştirir)
+
+2)Big-O gösterimini yazınız.
+O(n^2)
+
+3)Time Complexity: 
+Average case: Aradığımız sayının ortada olması
+n^2
+
+Worst case: Aradığımız sayının sonda olması 
+n^2
+
+Best case: Aradığımız sayının dizinin en başında olması.
+n
+
+4)Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
+Veri setinin ortasında yer aldığından average case kapsamına girer.
+
+
+B)[7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
+
+1.Adım: 7 3 5 8 2 9 4 15 6
+2.Adım: 3 7 5 8 2 9 4 15 6 
+3.Adım: 3 5 7 8 2 9 4 15 6 
+4.Adım: 3 5 7 8 2 9 4 15 6  
+
+
