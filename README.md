@@ -1,1 +1,2 @@
-# Veri-Yap-lar-ve-Algoritmalar-Projeleri
+Veri Yapıları ve Algoritmaları Projeleri
+www.patika.dev YTÜ Yazılıma Başlangıç Patikası
