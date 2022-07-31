@@ -1,2 +1,3 @@
 Veri Yapıları ve Algoritmaları Projeleri
-www.patika.dev YTÜ Yazılıma Başlangıç Patikası
+YTÜ Yazılıma Başlangıç Patikası
+https://app.patika.dev/silanevalyavuz
